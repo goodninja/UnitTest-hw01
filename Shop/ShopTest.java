@@ -23,7 +23,7 @@ public class ShopTest {
 
         assertThat(products.size()).isEqualTo(4);
 
-        assertThat(Shop.getMostExpensiveProduct(products).getCost()).isEqualTo(150);
+        assertThat(Shop.getMostExpensiveProduct(products).getCost()).isEqualTo(155);
 
         check(products);
 
